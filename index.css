@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(199, 226, 228);
+}
+
+#text {
+  text-align: center;
+  color: rgb(82, 164, 219);
+}
+
+.formulaire {
+  background-color: white;
+  width: 400px;
+  padding: 20px;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 50px;
+  box-shadow: 0px 1px 10px rgb(0, 0, 0.2);
+}
+
+.formulaire input,
+.formulaire select {
+  display: block;
+  padding: 10px 10px;
+  border: 1px solid gray;
+  margin-bottom: 10px;
+  width: 100%;
+  border-radius: 3px;
+}
+
+.formulaire button {
+  display: block;
+  padding: 8px 25px;
+  background-color: rgb(82, 164, 219);
+  border: none;
+  border-radius: 20px;
+  color: white;
+  margin: auto;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+fieldset {
+  border: 1px solid gray;
+  padding: 20px 10px;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+legend {
+  background-color: rgb(82, 164, 219);
+  color: white;
+  padding: 5px 20px;
+  border-radius: 20px;
+  margin: auto;
+}

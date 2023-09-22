@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js" defer></script>
+    <title>Vente</title>
+  </head>
+  <body>
+    <form name="formulaire" class="formulaire">
+      <div id="text">
+        <h1>Site de vente</h1>
+      </div>
+      <fieldset>
+        <legend>Infomation Personnelle</legend>
+        <input type="text" placeholder="Name" />
+        <input type="text" placeholder="E-mail" />
+        <input type="text" placeholder="Phone Number" />
+        <input type="text" placeholder="Address" />
+      </fieldset>
+
+      <fieldset>
+        <legend>Qu'aimeriez vous acheter aujourd'hui</legend>
+        <select name="fruit" id="fruit">
+          <option value="" selected>Selectionner un fruit</option>
+          <option value="Pomme">Pomme</option>
+          <option value="Melon">Melon</option>
+          <option value="Poire">Poire</option>
+          <option value="Banane">Banane</option>
+          <option value="Orange">Orange</option>
+          <option value="Fraise">Fraise</option>
+          <option value="Cerise">Cerise</option>
+          <option value="Ananas">Ananas</option>
+          <option value="Kiwi">Kiwi</option>
+          <option value="Raisin">Raisin</option>
+          <option value="Mangue">Mangue</option>
+          <option value="Franboise">Franboise</option>
+          <option value="pastèque">pastèque</option>
+          <option value="Pêche">Pêche</option>
+          <option value="Abricot">Abricot</option>
+          <option value="Citron">Citron</option>
+          <option value="Papaye">Papaye</option>
+          <option value="Goyave">Goyave</option>
+        </select>
+      </fieldset>
+
+      <button onclick="additioner">Additioner</button>
+      <button onclick="finaliser">Finaliser</button>
+    </form>
+  </body>
+</html>
